@@ -1,0 +1,11 @@
+Project Description:
+The app displays the weather and forecast of the user's location using an API.
+
+Features:
+1. Geolocation
+    a. Google API displays the current location of the user. 
+2. Darksky API
+    a. Allows app to request weather forecast data.
+3. Weather Display
+    a. App displays the current weather (and 12 hour forecast projections) of the user's local area. 
+

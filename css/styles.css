@@ -1,0 +1,107 @@
+
+  #body {
+   
+    background: linear-gradient(to bottom, #cedbe9 0%,#aac5de 11%,#edb347 26%,#6199c7 50%,#419ad6 59%,#4bb8f0 82%,#3a8bc2 93%,#26558b 100%);     width: 100%;
+    min-height: 100%;
+  }
+  
+  #body .currentWeather{
+    text-align: center;
+    height: auto;
+    margin-top: 10rem;
+    background-image: -webkit-linear-gradient( #4d1111, #da7171) ;
+    border-radius: 10px;
+    color: #EEE;
+  }
+
+  #currentTemp {
+    font-size: 15rem;
+    margin-top: 0rem;
+  }
+  #currentLoc{
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    font-size: 2.5rem;
+  }
+  
+  .btnarea {
+    margin-top: 6rem;
+    float: left;
+    margin-left: 6rem;
+    margin-bottom: 4rem;
+  }
+  
+  #body .btn {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: #EEE;
+    color: #a84141;
+    border-color: #E0E0E0;
+    border-width: 0.2rem;
+    font-size: 2.5rem;
+    font-weight: 900;
+  }
+  #body .btn.active {
+    background-color: #c4200b;
+    color: #EEEEEE;
+  }
+  #body .btn:hover {
+    background-color: #ec19ad;
+    color: #EEEEEE;
+  }
+
+  #hourly {
+    margin-top: 2rem;
+    color: #EEE;
+    background-image: -webkit-linear-gradient( #20859e, #2a1368) ;
+    border-radius: 10px;
+    color: #EEE;
+    opacity: 0.75;
+    box-shadow: 0px 0px 100px 5px #EEE
+  }
+
+  #hourly h4 {
+    margin-top: 1rem;
+    font-size: 2.5rem;
+  }
+ 
+  #hourly .panel-body li {
+    text-align: center;
+    padding-top: 1.5rem;
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  #hourly ul{
+    list-style: none;
+    padding: 0;
+  }
+  #hourly i {
+    font-size: 3.5rem;
+  }
+  #hourly li {
+    padding-bottom: 2rem;
+  }
+  #hourly .col-sm-1 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #currentIcon{
+    font-size: 15rem;
+    margin-top: 1.2rem;
+  }
+  #currentDesc{
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+    padding-bottom: 4rem; 
+  }
+  #currentDate {
+    margin-top: 4rem;
+    font-size: 2rem;
+    letter-spacing: 0.4rem;
+  }
+  #body .currentRight p {
+    letter-spacing: 0.4rem;
+  }
+
+
+  

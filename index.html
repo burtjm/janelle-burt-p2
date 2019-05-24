@@ -1,0 +1,194 @@
+<html>
+  
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!--  Bootstrap for grid -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+   
+    
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Link to Weather Icon Library-->
+    
+    
+    <link rel="stylesheet" href="css/styles.css">
+   <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+   
+  </head>
+  
+  <body id="body">
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6 col-xl-offset-3 col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1 currentWeather">
+          <div class="row">
+            <div class="col-md-6 col-sm-4">
+              <div class="btarea">
+                <button type="button" class="btn btn-primary active" id="celsiusButton"> <i class="wi wi-celsius"></i> </button>
+                <button type="button" class="btn btn-primary" id="fahrenheitButton"> <i class="wi wi-fahrenheit"></i> </button>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-8">
+              <p id="currentDate"></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <p id="currentIcon"> </p>
+              <p id="currentDesc">  </p>
+            </div>
+            <div class="col-sm-6 currentRight">
+                <p id="currentTemp"></p>
+                <p id="currentLoc"> <i class="fa fa-map-marker"></i> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+               
+                <div class="row">
+                        <div class="col-xl-6 col-xl-offset-3 col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1" id="hourly">
+                          <div class="panel-group">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a data-toggle="collapse" href="#collapse2"> 
+                                  Your Forecast For the Next 12 Days
+                                </a>
+                                <a data-toggle="collapse" href="#collapse2">
+                                  <span class="fa fa-chevron-down fa-sm" id="menuIconHourly"></span>
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapse2" class="panel-collapse collapse">
+                              <div class="panel-body">
+                                <div class="row">
+                                  
+                                  <div class="col-sm-1 col-xs-2">
+                                    <ul>
+                                      <li id="hourlyTime0"></li>
+                                      <li id="hourlyIcon0"></li>
+                                      <li id="hourlyTemp0"></li>
+                                    </ul>
+                                  </div>
+                                  
+                                  <div class="col-sm-1 col-xs-2">
+                                    <ul>
+                                      <li id="hourlyTime1"></li>
+                                      <li id="hourlyIcon1"></li>
+                                      <li id="hourlyTemp1"></li>
+                                    </ul>
+                                  </div>
+                                  
+                                  <div class="col-sm-1 col-xs-2">
+                                    <ul>
+                                      <li id="hourlyTime2"></li>
+                                      <li id="hourlyIcon2"></li>
+                                      <li id="hourlyTemp2"></li>
+                                    </ul>
+                                  </div>
+                                  
+                                  <div class="col-sm-1 col-xs-2">
+                                    <ul>
+                                      <li id="hourlyTime3"></li>
+                                      <li id="hourlyIcon3"></li>
+                                      <li id="hourlyTemp3"></li>
+                                    </ul>
+                                  </div>
+                                  
+                                  <div class="col-sm-1 col-xs-2">
+                                    <ul>
+                                      <li id="hourlyTime4"></li>
+                                      <li id="hourlyIcon4"></li>
+                                      <li id="hourlyTemp4"></li>
+                                    </ul>
+                                  </div>
+                                  
+                                  <div class="col-sm-1 col-xs-2">
+                                    <ul>
+                                      <li id="hourlyTime5"></li>
+                                      <li id="hourlyIcon5"></li>
+                                      <li id="hourlyTemp5"></li>
+                                    </ul>
+                                  </div>
+                                  
+                                  <div class="col-sm-1 col-xs-2">
+                                    <ul>
+                                      <li id="hourlyTime6"></li>
+                                      <li id="hourlyIcon6"></li>
+                                      <li id="hourlyTemp6"></li>
+                                    </ul>
+                                  </div>
+                                  
+                                  <div class="col-sm-1 col-xs-2">
+                                    <ul>
+                                      <li id="hourlyTime7"></li>
+                                      <li id="hourlyIcon7"></li>
+                                      <li id="hourlyTemp7"></li>
+                                    </ul>
+                                  </div>
+                                  
+                                  <div class="col-sm-1 col-xs-2">
+                                    <ul>
+                                      <li id="hourlyTime8"></li>
+                                      <li id="hourlyIcon8"></li>
+                                      <li id="hourlyTemp8"></li>
+                                    </ul>
+                                  </div>
+                                  
+                                  <div class="col-sm-1 col-xs-2">
+                                    <ul>
+                                      <li id="hourlyTime9"></li>
+                                      <li id="hourlyIcon9"></li>
+                                      <li id="hourlyTemp9"></li>
+                                    </ul>
+                                  </div>
+                                  
+                                  <div class="col-sm-1 col-xs-2">
+                                    <ul>
+                                      <li id="hourlyTime10"></li>
+                                      <li id="hourlyIcon10"></li>
+                                      <li id="hourlyTemp10"></li>
+                                    </ul>
+                                  </div>
+                                  
+                                  <div class="col-sm-1 col-xs-2">
+                                    <ul>
+                                      <li id="hourlyTime11"></li>
+                                      <li id="hourlyIcon11"></li>
+                                      <li id="hourlyTemp11"></li>
+                                    </ul>
+                                  </div>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                     
+                
+      
+  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+     
+    </div> <!-- end site container -->
+
+     <!-- jQuery library -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+     <!-- Boostrap Latest compiled JavaScript -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <script src="js/scripts.js"></script>
+  </body>
+  
+</html>
